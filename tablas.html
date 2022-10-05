@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas Con Boostrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+
+</head>
+<body>
+
+    <div class="container mt-5">
+    <table class="table table-striped" id="lista">
+        <thead class="bg-primary">
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </thead>
+        <tbody>
+            <tr class="table table-active">
+              <td> 1 </td>
+              <td> Ayleen </td>
+              <td> Orjuela </td>
+              <td> 21 </td>
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <td> 3 </td>
+              <td> Joce </td>
+              <td> Ortiz </td>
+              <td> 21 </td>
+            </tr>
+            <tr>
+                <td> 4 </td>
+                <td> Fabio </td>
+                <td> Ortiz </td>
+                <td> 40 </td>
+              </tr>
+              <td> 5 </td>
+              <td> Deiner </td>
+              <td> Vega </td>
+              <td> 22 </td>
+            </tr>
+            <tr>
+                <td> 6 </td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <td> 7 </td>
+              <td> Alejandro </td>
+              <td> Otaiza </td>
+              <td> 24 </td>
+            </tr>
+            <tr>
+                <td> 8 </td>
+                <td> Luis </td>
+                <td> Nuñez </td>
+                <td> 20 </td>
+              </tr>
+              <td> 9 </td>
+              <td> Johana </td>
+              <td> Gonzalez </td>
+              <td> 35 </td>
+            </tr>
+            <tr>
+                <td> 10 </td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <td> 11 </td>
+              <td> Andres </td>
+              <td> Lopez </td>
+              <td> 21 </td>
+            </tr>
+            <tr>
+                <td> 12 </td>
+                <td> Braian </td>
+                <td> Ruiz </td>
+                <td> 23 </td>
+              </tr>
+              <td> 13 </td>
+              <td> Ayleen </td>
+              <td> Orjuela </td>
+              <td> 21 </td>
+            </tr>
+            <tr>
+                <td> 14 </td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <td> 15 </td>
+              <td> Ayleen </td>
+              <td> Orjuela </td>
+              <td> 21 </td>
+            </tr>
+            <tr>
+                <td> 16 </td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <td> 17 </td>
+              <td> Ayleen </td>
+              <td> Orjuela </td>
+              <td> 21 </td>
+            </tr>
+            <tr>
+                <td> 18 </td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <td> 19 </td>
+              <td> Ayleen </td>
+              <td> Orjuela </td>
+              <td> 21 </td>
+            </tr>
+            <tr>
+                <td> 20 </td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <td> 21 </td>
+              <td> Ayleen </td>
+              <td> Orjuela </td>
+              <td> 21 </td>
+            </tr>
+            <tr>
+                <td> 22 </td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <td> 23 </td>
+              <td> maria </td>
+              <td> Nuñez </td>
+              <td> 26 </td>
+            </tr>
+            <tr>
+                <td> 24 </td>
+                <td> Alejandro </td>
+                <td> Daza </td>
+                <td> 20 </td>
+              </tr>
+              <td> 25 </td>
+              <td> Luis </td>
+              <td> Gaviria </td>
+              <td> 30 </td>
+            </tr>
+            <tr>
+                <td> 26 </td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <td> 27 </td>
+              <td> Ayleen </td>
+              <td> Orjuela </td>
+              <td> 21 </td>
+            </tr>
+            <tr>
+                <td> 28 </td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <td> 29 </td>
+              <td> Gustavo </td>
+              <td> Petro </td>
+              <td> 62 </td>
+            </tr>
+            <tr>
+                <td> 30 </td>
+                <td> Grego </td>
+                <td> Charris </td>
+                <td> 84 </td>
+              </tr>
+              <td> 31 </td>
+              <td> Ayleen </td>
+              <td> Orjuela </td>
+              <td> 21 </td>
+            </tr>
+            <tr>
+                <td> 32 </td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <td> 33 </td>
+              <td> Charles </td>
+              <td> Figueroa </td>
+              <td> 37 </td>
+            </tr>
+            <tr>
+                <td> 33 </td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <td> 34 </td>
+              <td> Ayleen </td>
+              <td> Orjuela </td>
+              <td> 21 </td>
+            </tr>
+            <tr>
+                <td> 35 </td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <td> 36 </td>
+              <td> Nicole </td>
+              <td> Ortiz </td>
+              <td> 4 </td>
+            </tr>
+            <tr>
+                <td> 37 </td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <tr>
+                <td> 38</td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <tr>
+                <td> 39 </td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <tr>
+                <td> 40 </td>
+                <td> Robert </td>
+                <td> Daza </td>
+                <td> 20 </td>
+              </tr>
+              <tr>
+                <td> 41 </td>
+                <td> Sara </td>
+                <td> Orjuela </td>
+                <td> 20 </td>
+              </tr>
+              <tr>
+                <td> 42 </td>
+                <td> Jason </td>
+                <td> Olivares </td>
+                <td> 20 </td>
+              </tr>
+              <tr>
+                <td> 43 </td>
+                <td> Hugo </td>
+                <td> garcia </td>
+                <td> 22 </td>
+              </tr>
+        </tbody>
+    </table>
+</div>
+<script>
+    $(document).ready(function () {
+    $('#lista').DataTable();
+});
+</script>
+</body>
+</html>
